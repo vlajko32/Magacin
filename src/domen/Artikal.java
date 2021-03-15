@@ -27,7 +27,7 @@ public class Artikal {
 		if(opis.split(" ").length > 3)
 			this.opis = opis;
 	}
-	public double getKolicina() {
+	public int getKolicina() {
 		return kolicina;
 	}
 	public void setKolicina(int kolicina) {
