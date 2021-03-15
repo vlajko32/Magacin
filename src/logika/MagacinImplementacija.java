@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 import domen.Artikal;
 
-public class MagacinImplementacija implements MagazinInterface{
+public class MagacinImplementacija implements MagacinInterface{
 
 	private LinkedList<Artikal> artikli = new LinkedList<Artikal>();
 
