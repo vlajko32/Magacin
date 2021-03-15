@@ -54,6 +54,7 @@ public class MagacinImplementacija implements MagazinInterface{
 		else
 			return rezultat;
 
+	
 		
 	}
 
