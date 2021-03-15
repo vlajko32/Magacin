@@ -9,25 +9,30 @@ public class Artikal {
 		return naziv;
 	}
 	public void setNaziv(String naziv) {
-		this.naziv = naziv;
+		if(naziv.length() > 0)
+			this.naziv = naziv;
 	}
 	public int getSifra() {
+		
 		return sifra;
 	}
 	public void setSifra(int sifra) {
-		this.sifra = sifra;
+		if(sifra > 0)
+			this.sifra = sifra;
 	}
 	public String getOpis() {
 		return opis;
 	}
 	public void setOpis(String opis) {
-		this.opis = opis;
+		if(opis.split(" ").length > 3)
+			this.opis = opis;
 	}
-	public int getKolicina() {
+	public double getKolicina() {
 		return kolicina;
 	}
 	public void setKolicina(int kolicina) {
-		this.kolicina = kolicina;
+		if(kolicina > 0)
+			this.kolicina = kolicina;
 	}
 	@Override
 	public int hashCode() {
